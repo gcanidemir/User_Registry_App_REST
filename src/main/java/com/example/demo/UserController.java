@@ -68,6 +68,7 @@ public class UserController {
 			repository.deleteById(id);
 		} catch (UserNotFoundException e) {
 			e = new UserNotFoundException(id);
+			throw e;
 		}
 	}
 }
