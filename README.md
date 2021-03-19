@@ -45,7 +45,7 @@ First initialization
 
 ![First Initilization](https://user-images.githubusercontent.com/40427109/111711741-715a2000-885d-11eb-96f4-b75d979e9f5b.png)
 
-After 4 post request
+After 4 post requests
 ![After 4 Post Request](https://user-images.githubusercontent.com/40427109/111711922-baaa6f80-885d-11eb-8a2b-d0251445329f.png)
 Getting only user 1
 
