@@ -40,7 +40,7 @@ curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:applicati
 curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:application/json" -d "{\"name\": \"Etem\", \"surName\": \"Halat\", \"email\": \"ehalat@hotmail.com\"}"
 ```
 ### Screenshots
-First initilization
+First initialization
 ![First Initilization Console](https://user-images.githubusercontent.com/40427109/111711688-5687ab80-885d-11eb-831b-114142bf03df.png)
 
 ![First Initilization](https://user-images.githubusercontent.com/40427109/111711741-715a2000-885d-11eb-96f4-b75d979e9f5b.png)
