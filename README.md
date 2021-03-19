@@ -41,7 +41,7 @@ curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:applicati
 ```
 ### Screenshots
 First initilization
-![First Initilization Console](https://user-images.githubusercontent.com/40427109/111711688-5687ab80-885d-11eb-831b-114142bf03df.png)![Fully changed user 3](https://user-images.githubusercontent.com/40427109/111712706-3bb63680-885f-11eb-992a-6fc8981a1f41.png)
+![First Initilization Console](https://user-images.githubusercontent.com/40427109/111711688-5687ab80-885d-11eb-831b-114142bf03df.png)
 
 ![First Initilization](https://user-images.githubusercontent.com/40427109/111711741-715a2000-885d-11eb-96f4-b75d979e9f5b.png)
 
