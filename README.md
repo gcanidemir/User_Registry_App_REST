@@ -6,9 +6,9 @@ To run the application just download the project and open as maven project in an
 To see the web version one can visit [deployed version](https://cmpe328-homework1.herokuapp.com/).
 ## Test
 ### Used Commands
-Commands are for windows terminal. So it may not work on any other one. To fix this issue one may change " to ' and \\" to ".
+Commands are for windows terminal. So, it may not work on any other one. To fix this issue one may change " to ' and \\" to ".
 
-To test the localhost version I used the codes below.
+To test the localhost version, I used the codes below.
 ```
 curl -X POST localhost:8080 -H "Content-type:application/json" -d "{\"name\": \"Ahmet\", \"surName\": \"Biyik\", \"email\": \"abiyik@hotmail.com\"}"
 curl -X POST localhost:8080 -H "Content-type:application/json" -d "{\"name\": \"Ayse\", \"surName\": \"Torun\", \"email\": \"atorun@hotmail.com\"}"
@@ -24,7 +24,7 @@ curl -X PUT localhost:8080/3 -H "Content-type:application/json" -d "{\"name\": \
 curl -X PUT localhost:8080/3 -H "Content-type:application/json" -d "{\"name\": \"Etem\", \"surName\": \"Halat\", \"email\": \"ehalat@hotmail.com\"}"
 ```
 
-To test the deployed version one may use the codes below.
+To test the deployed version one, may use the codes below.
 ```
 curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Ahmet\", \"surName\": \"Biyik\", \"email\": \"abiyik@hotmail.com\"}"
 curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Ayse\", \"surName\": \"Torun\", \"email\": \"atorun@hotmail.com\"}"
