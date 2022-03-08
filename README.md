@@ -1,9 +1,7 @@
-# CMPE_328_HW1
-CMPE 328 Homework 1 - Basic user registry application with RESTful api.
+# Basic user registry application with RESTful api.
 ## Running
 To run the application just download the project and open as maven project in any editor.
 
-To see the web version one can visit [deployed version](https://cmpe328-homework1.herokuapp.com/).
 ## Test
 ### Used Commands
 Commands are for windows terminal. So, it may not work on any other one. To fix this issue one may change " to ' and \\" to ".
@@ -22,22 +20,6 @@ curl -X GET localhost:8080
 curl -X PUT localhost:8080/3 -H "Content-type:application/json" -d "{\"name\": \"Kerem\"}"
 curl -X PUT localhost:8080/3 -H "Content-type:application/json" -d "{\"name\": \"Talat\", \"surName\": \"Kar\"}"
 curl -X PUT localhost:8080/3 -H "Content-type:application/json" -d "{\"name\": \"Etem\", \"surName\": \"Halat\", \"email\": \"ehalat@hotmail.com\"}"
-```
-
-To test the deployed version one, may use the codes below.
-```
-curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Ahmet\", \"surName\": \"Biyik\", \"email\": \"abiyik@hotmail.com\"}"
-curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Ayse\", \"surName\": \"Torun\", \"email\": \"atorun@hotmail.com\"}"
-curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Mehmet\", \"surName\": \"Gormus\", \"email\": \"mgormus@hotmail.com\"}"
-curl -X POST https://cmpe328-homework1.herokuapp.com/ -H "Content-type:application/json" -d "{\"name\": \"Mustafa\", \"surName\": \"Yildirim\", \"email\": \"myildirim@hotmail.com\"}"
-curl -X GET https://cmpe328-homework1.herokuapp.com/
-curl -X GET https://cmpe328-homework1.herokuapp.com/1
-curl -X GET https://cmpe328-homework1.herokuapp.com/5
-curl -X DELETE https://cmpe328-homework1.herokuapp.com/4
-curl -X GET https://cmpe328-homework1.herokuapp.com/
-curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:application/json" -d "{\"name\": \"Kerem\"}"
-curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:application/json" -d "{\"name\": \"Talat\", \"surName\": \"Kar\"}"
-curl -X PUT https://cmpe328-homework1.herokuapp.com/3 -H "Content-type:application/json" -d "{\"name\": \"Etem\", \"surName\": \"Halat\", \"email\": \"ehalat@hotmail.com\"}"
 ```
 ### Screenshots
 First initialization
@@ -71,6 +53,3 @@ After all changed
 
 Last state
 ![Last State](https://user-images.githubusercontent.com/40427109/111712777-60aaa980-885f-11eb-8afb-cba654fdab23.png)
-
-Console commands
-![Console Commands](https://user-images.githubusercontent.com/40427109/111712818-78822d80-885f-11eb-8f95-3dad377a2d65.png)
